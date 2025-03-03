@@ -14,6 +14,7 @@ import { FiUser, FiPhone, FiCalendar, FiClock, FiCheck, FiInfo, FiX } from 'reac
         "Others"
     ], []);
 
+
     const validateForm = useCallback(() => {
         const errors = {};
         if (!name.trim()) errors.name = 'Name is required.';
